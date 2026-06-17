@@ -1,0 +1,5 @@
+# Third-party runtime dependency.
+# Note: boto3 is preinstalled in the AWS Lambda Python runtime, so it does not
+# need to be bundled in the deployment package. It is listed here for local
+# development and running the test suite.
+boto3>=1.26
